@@ -1,19 +1,17 @@
-Here are firsts steps in C language
+# C LANGUAGE PROJECT IN HOLBERTON SCHOOL
 
-The Hello_world project was about GCC :
+**First**
 
-PREPROCESSOR :
+[0x00-hello_world](https://github.com/julien3641/holbertonschool-low_level_programming/tree/main/0x00-hello_world)
 
-gcc -E [filename] -o c
+**Second**
 
-then, COMPILING
+[0x01-variables_if_else_while](https://github.com/julien3641/holbertonschool-low_level_programming/tree/main/0x01-variables_if_else_while)
 
-gcc -c [filename]
+**Third**
 
-next, ASSEMBLER
+[0x02-]()
 
-gcc -S [filename]
+**Fourth**
 
-last, LINKING
-
-gcc [filename] -o [executable_name]
+[0x03-]()
