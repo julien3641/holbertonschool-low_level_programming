@@ -1,4 +1,4 @@
-![holbertonlogo](http://home/duffay/holbertonschool-low_level_programming/hlogo.png)
+![holbertonlogo](./hslogo.png)
 
 # C LANGUAGE PROJECT IN HOLBERTON SCHOOL
 
