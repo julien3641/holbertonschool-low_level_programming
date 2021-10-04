@@ -19,13 +19,17 @@ int main(void)
 		{
 			if (n1 < n2)
 			{
-				putchar(n1);
-				putchar(n2);
-			}
-			if (n1 != 8)
-			{
-				putchar(',');
-				putchar(' ');
+				{
+					putchar(n1);
+					putchar(n2);
+				}
+				{
+					if (n1 != '8')
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
 			}
 		}
 	}
