@@ -1,3 +1,5 @@
+![holbertonlogo](http://home/duffay/holbertonschool-low_level_programming/hlogo.png)
+
 # C LANGUAGE PROJECT IN HOLBERTON SCHOOL
 
 **First**
