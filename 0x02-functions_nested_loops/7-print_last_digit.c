@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_last_digit - affiche l'alphabet x10
+ * print_last_digit - last digit
  *
  * @n: The character to print
  *
@@ -16,7 +16,8 @@ int print_last_digit(int n)
 	}
 	else
 	{
-		_putchar(-n % 10 + '0');
-		return (-n % 10);
+		n = n * -1;
+		_putchar(n % 10 + '0');
+		return (n % 10);
 	}
 }
