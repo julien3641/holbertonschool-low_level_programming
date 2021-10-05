@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - affiche l'alphabet x10
+ * _islower - affiche l'alphabet x10
  *
  * @c: The character to print
  *
