@@ -7,7 +7,7 @@
  *
  * Return: 1 ou 0 ou 98
  */
-int _abs(int n)
+int print_last_digit(int n)
 {
 		return (n % 10);
 }
