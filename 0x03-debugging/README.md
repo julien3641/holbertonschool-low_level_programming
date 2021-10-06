@@ -1,4 +1,4 @@
-
+![duck](./canard.jpg)
 
 Learning Objectives
 
