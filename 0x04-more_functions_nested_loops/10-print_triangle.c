@@ -4,7 +4,6 @@
  * print_triangle - print a straiht line
  * @size: valeur d'arrêt
  *
- * Return: 1 or 0
  */
 
 void print_triangle(int size)
@@ -23,7 +22,7 @@ void print_triangle(int size)
 		{
 			for (espace = size - etage; espace > 1; espace--)
 			{
-				_putchar ('.');
+				_putchar (' ');
 			}
 			{
 				for (dieze = 0; dieze <= etage; dieze++)
