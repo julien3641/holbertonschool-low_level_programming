@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - est en majuscule
+ * _isdigit - est en chiffre
  * @c: int
  * Return: 1 or 0
  */
