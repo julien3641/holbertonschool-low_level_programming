@@ -12,6 +12,7 @@ void print_diagonal(int n)
 	int i;
 	int j;
 	int nbespaces;
+
 	if (n <= 0)
 	{
 		_putchar ('\n');
