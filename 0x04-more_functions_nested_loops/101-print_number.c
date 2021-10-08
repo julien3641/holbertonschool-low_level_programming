@@ -3,7 +3,7 @@
 /**
  * print_number - print numbers
  *
- *
+ * @n: -n
  */
 void print_number(int n)
 {
