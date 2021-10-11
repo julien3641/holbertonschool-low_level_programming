@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * puts2 - longeur d'un champs
+ * puts_half - longeur d'un champs
  * @str: valeur de str
  *
  * Return: Return 0
