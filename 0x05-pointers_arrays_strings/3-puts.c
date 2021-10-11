@@ -1,6 +1,5 @@
 #include "main.h"
 #include <string.h>
-#include <stdio.h>
 
 /**
  * _puts - longeur d'un champs
@@ -10,6 +9,10 @@
  */
 void _puts(char *str)
 {
-	puts(str);
-	_putchar (0);
+	int nb;
+	{
+		for (nb = 0; str[nb] != '\0'; nb++)
+		_putchar (str[nb]);
+		_putchar ('\n');
+	}
 }
