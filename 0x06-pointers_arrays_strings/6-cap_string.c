@@ -14,12 +14,13 @@ char *cap_string(char *str)
 
 	for (i = 0; i < x; i++)
 	{
-
-		if (str[i - 1] == ' ' || str[i - 1] == ',' || str[i - 1] == ';'
-		    || str[i - 1] == '.' || str[i - 1] == '!' || str[i - 1] == '?'
-		    || str[i - 1] == '"' || str[i - 1] == '(' || str[i - 1] == ')'
-		    || str[i - 1] == '{' || str[i - 1] == '}' || str[i - 1] == '\t'
-			|| str[i - 1] == '\n')
+		if (str[i - 1] == ' ' || str[i - 1] == ','
+		    || str[i - 1] == ';' || str[i - 1] == '.'
+		    || str[i - 1] == '!' || str[i - 1] == '?'
+		    || str[i - 1] == '"' || str[i - 1] == '('
+		    || str[i - 1] == ')' || str[i - 1] == '{'
+		    || str[i - 1] == '}' || str[i - 1] == '\t'
+		    || str[i - 1] == '\n')
 		{
 			if (str[i] >= 'a' && str[i] <= 'z')
 			{
