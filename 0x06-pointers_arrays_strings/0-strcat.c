@@ -2,12 +2,14 @@
 #include <string.h>
 
 /**
- * _strcat - concatener
+ * _strcat - concatenate using strcat
  *
  * @dest: destination
  * @src: src
+ * Return: concatenate
  */
 char *_strcat(char *dest, char *src)
 {
-	return(strcat (dest, src));
+	strcat(dest, src);
+	return (dest);
 }
