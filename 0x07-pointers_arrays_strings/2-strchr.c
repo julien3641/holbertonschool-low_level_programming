@@ -1,4 +1,5 @@
 #include <string.h>
+#include "main.h"
 
 /**
  * _strchr - return a constent byte

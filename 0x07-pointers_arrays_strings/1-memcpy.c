@@ -1,4 +1,5 @@
 #include <string.h>
+#include "main.h"
 
 /**
  * _memcpy - return a constent byte
