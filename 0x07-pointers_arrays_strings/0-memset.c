@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _memset - return a constent byte
+ * _memset - fil memory with a constant bite
  *
  * @s: char
  * @b: char
@@ -13,5 +13,10 @@
 char *_memset(char *s, char b, unsigned int n)
 
 {
-	return (memset(s, b, n));
+	unsigned int i;
+		for (i = 0; i < n; i++)
+		{
+			s[i] = b;
+		}
+	return (0);
 }
