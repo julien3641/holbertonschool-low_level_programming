@@ -10,13 +10,14 @@ int string_length(char *s)
 {
 	if (*s == '\0')
 		return (0);
-	return (1 + string_length (s + 1));
+	return (1 + string_length(s + 1));
 }
 
 /**
  * palindrome_check- check if the first letter is the same as the last one
  * @s: s
- *
+ * @len: len
+ * @i: i
  * Return: return
  */
 int palindrome_check(char *s, int len, int i)
@@ -42,7 +43,7 @@ int is_palindrome(char *s)
 	int i = 0;
 	int len = string_length(s);
 
-        if (*s == '\0')
-                return (1);
-        return (palindrome_check (s, len, i));
+	if (*s == '\0')
+		return (1);
+	return (palindrome_check(s, len, i));
 }
