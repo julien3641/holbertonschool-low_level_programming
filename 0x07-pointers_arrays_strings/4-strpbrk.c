@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _strpbrk - return a constent byte
- *
+ * _strpbrk - return the first caracter pointed by the first common
+ * caracter of the substring
  * @s: char
  * @accept: char
  *
@@ -13,5 +13,18 @@
 char *_strpbrk(char *s, char *accept)
 
 {
-	return (strpbrk(s, accept));
+	int i;
+
+	while (*s)
+	{
+		for (i = 0; accept[i] != '\0'; i++)
+		{
+			if (*s == accept[i])
+			{
+				return (s);
+			}
+		}
+		s++;
+	}
+	return ('\0');
 }
