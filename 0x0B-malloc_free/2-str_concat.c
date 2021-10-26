@@ -16,13 +16,17 @@ char *str_concat(char *s1, char *s2)
 	int l = 0;
 	char *s3;
 
-	if (s1 == 0 || s2 == 0)
+	if (s1 == 0)
 	{
-		return (0);
+		s1 = 0;
 	}
 	while (s1[i])
 	{
 		i++;
+	}
+	if (s2 == 0)
+	{
+		s2 = 0;
 	}
 	while (s2[j])
 	{
