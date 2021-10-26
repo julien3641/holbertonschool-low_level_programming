@@ -16,8 +16,6 @@ char *str_concat(char *s1, char *s2)
 	int l = 0;
 	char *s3;
 
-	if (!s1 && !s2)
-		return (0);
 	if (s1 == 0)
 		i = 0;
 	else
