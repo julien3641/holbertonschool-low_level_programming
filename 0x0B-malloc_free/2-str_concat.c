@@ -16,7 +16,11 @@ char *str_concat(char *s1, char *s2)
 	int l = 0;
 	char *s3;
 
-	if (s1 == 0 || s2 == 0)
+	if (s1 == 0)
+	{
+		return (0);
+	}
+	if (s2 == 0)
 	{
 		return (0);
 	}
