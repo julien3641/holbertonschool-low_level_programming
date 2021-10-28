@@ -1,17 +1,16 @@
 #include "main.h"
-#include <stdlib.h>
+#include "stdlib.h"
 
 /**
- * string_nconcat - concatenate
+ * str_concat - concatenate
  * @s1: s1
  * @s2: s2
- * @n: n
  * Return: 0
  */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+char *str_concat(char *s1, char *s2)
 {
-	unsigned int i = 0, j = 0, k = 0, l = 0;
+	int i = 0, j = 0, k = 0, l = 0;
 	char *s3;
 
 	if (s1 == 0)
@@ -32,7 +31,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	l = i + j;
 	else
 		l = i + n;
-	s3 = malloc(sizeof(char) * l + 1));
+	s3 = malloc(sizeof(char) * l + 1);
 	if (s3 == 0)
 		return (0);
 	j = 0;
