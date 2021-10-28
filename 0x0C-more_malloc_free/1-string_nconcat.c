@@ -2,15 +2,16 @@
 #include "stdlib.h"
 
 /**
- * str_concat - concatenate
+ * string_nconcat - concatenate
  * @s1: s1
  * @s2: s2
+ * @n: n
  * Return: 0
  */
 
-char *str_concat(char *s1, char *s2)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i = 0, j = 0, k = 0, l = 0;
+	unsigned int i = 0, j = 0, k = 0, l = 0;
 	char *s3;
 
 	if (s1 == 0)
