@@ -9,9 +9,9 @@
  */
 int _strlen(char *s)
 {
-	int nbcar;
-	{
-		nbcar = strlen(s);
-			}
-	return (nbcar);
+	int i = 0;
+
+	while (s[i] != '\0')
+		i++;
+	return (i);
 }
