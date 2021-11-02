@@ -2,7 +2,8 @@
 #define STRUCT_DOG
 /**
  * struct dog - define the dog structure
- * @name: dog's name
+ * if not defined
+* @name: dog's name
  * @age: dog's age
  * @owner: Name of the owner
  */
