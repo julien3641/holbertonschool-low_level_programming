@@ -19,8 +19,9 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	operator = argv[2];
-	if (*operator != '+' && *operator != '*'
-	    && *operator != '/' && *operator != '%' && *operator != '-')
+	if ((*operator != '+' && *operator != '*'
+	     && *operator != '/' && *operator != '%' && *operator != '-')
+	    || strlen(operator) != 1)
 	{
 		printf("Error\n");
 		exit(99);
