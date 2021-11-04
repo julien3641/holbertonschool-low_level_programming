@@ -13,7 +13,8 @@ void print_char(char *separator, va_list args)
 
 /**
  * print_integer - print integer
- * @n: n
+ * @separator: separator
+ * @args: args
  */
 
 void print_integer(char *separator, va_list args)
@@ -69,6 +70,7 @@ void print_all(const char * const format, ...)
 		{NULL, NULL}
 	};
 	char *separator = "";
+
 	va_start(ap, format);
 	i = 0;
 	while (format != NULL && format[i])
