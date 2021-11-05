@@ -1,6 +1,6 @@
 section .data
 
-    message db "Hello, world", 10
+    message db "Hello,World", 0xa
 
 section .text
 global main
