@@ -1,4 +1,4 @@
-<center>![holbertonlogo](./hslogo.png)<cener>
+:![holbertonlogo](./hslogo.png):
 
 # C LANGUAGE PROJECT IN HOLBERTON SCHOOL
 
