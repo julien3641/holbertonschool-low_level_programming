@@ -2,9 +2,6 @@
   <img src=./hslogo.png>
 </p>
 
-
-![holbertonlogo](./hslogo.png)
-
 # C LANGUAGE PROJECT IN HOLBERTON SCHOOL
 
 **First**[0x00-hello_world](https://github.com/julien3641/holbertonschool-low_level_programming/tree/main/0x00-hello_world)
