@@ -42,7 +42,7 @@ More Info
 
 You do not have to learn about calloc and realloc.
 
-##Here are the compilation commands :
+Here are the compilation commands :
 
  * task 0
 
