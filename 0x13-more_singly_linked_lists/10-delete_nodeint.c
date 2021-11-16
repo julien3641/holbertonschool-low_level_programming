@@ -14,20 +14,20 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	if (*head == NULL)
 		return (-1);
+	/*store head in a temporary pointer*/
 	tmp = *head;
 	if (index == 0)
 	{
 		*head = tmp->next;
 		free(tmp);
-		return (-1);
+		return (1);
 	}
 
 	for (i = 0; i < index - 1 && tmp != NULL; i++)
-	{
 		tmp = tmp->next;
-		if (tmp->next != NULL || tmp == NULL)
-			return (-1);
-	}
+	/*if position is mor than number of nodes*/
+	if (tmp->next != NULL || tmp == NULL)
+		return (-1);
 	next = tmp->next->next;
 	free(tmp->next);
 	tmp->next = next;
