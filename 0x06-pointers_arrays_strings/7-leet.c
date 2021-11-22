@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * leet  - change all first word lowercase to uppercase
+ * leet  - function that encodes a string in 1337
  *
  * @s: points a variable of type char
  * Return: true or false
