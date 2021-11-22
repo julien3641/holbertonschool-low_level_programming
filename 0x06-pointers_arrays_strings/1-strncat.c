@@ -1,15 +1,26 @@
 #include "main.h"
-#include <string.h>
 
 /**
- * _strncat - concatenate using strcat
+ * *_strncat - function concatenates two sting that il will use at most n bytes
+ * @dest: string that receives a copy of variable src string
+ * @src: string copy in the variable dest string
+ * @n: n
  *
- * @dest: destination
- * @src: src
- * @n: Size_t
- * Return: concatenate
+ * Return: a pointer to the resulting string dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	return (strncat(dest, src, n));
+	int i, k;
+
+	for(i = 0; dest[i] != '\0'; i++)
+	{
+		;
+	}
+	for(k = 0; k < n && src[k] != '\0'; k++)
+	{
+		dest[i] = src[k];
+		i = i + 1;
+	}
+	dest[i + n + 1] = '\0';
+	return (dest);
 }
