@@ -1,14 +1,12 @@
 #include "main.h"
-#include <string.h>
 
 /**
- * reverse_array - compare Two Strings
+ * reverse_array - Function that reverse the content of an array
  *
  * @a: destination
  * @n: src
- *
- * Return: true or false
  */
+
 void reverse_array(int *a, int n)
 {
 	int i;
