@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int from, to, r, w, c1, c2;
-	char buffer[1024];
+	char buffer[BUFSIZ];
 
 	if (argc != 3)
 	{
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 	to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	do
 	{
-		r = read(from, buffer, 1024);
+		r = read(from, buffer, BUFSIZ);
 		if (from == -1)
 		{
 			dprintf(STDERR_FILENO,
