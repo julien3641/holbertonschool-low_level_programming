@@ -15,9 +15,9 @@ int main(void)
 	{
 		{
 			next = f1 + f2;
-			printf("%ld", next);
 			f1 = f2;
 			f2 = next;
+			printf("%ld", next);
 			if (i != 49)
 				printf(", ");
 		}
