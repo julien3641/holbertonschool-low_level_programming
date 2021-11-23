@@ -36,10 +36,10 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO,
 			"Error: Can't read from file %s\n", argv[1]), exit(98);
 	c1 = close(from);
-	c2 = close(to);
 	if (c1 == -1)
 		dprintf(STDERR_FILENO,
 			"Error: Can't close fd %d\n", from), exit(100);
+	c2 = close(to);
 	if (c2 == -1)
 		dprintf(STDERR_FILENO,
 			"Error: Can't close fd %d\n", from), exit(100);
