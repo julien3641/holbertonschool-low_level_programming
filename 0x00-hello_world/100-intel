@@ -1,2 +1,2 @@
 #!/bin/bash
-objdump -d $CIFLE -M intel
+gcc -S -masm=intel main.c
