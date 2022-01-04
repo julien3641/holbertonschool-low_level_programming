@@ -33,6 +33,6 @@ int _atoi(char *s)
 		}
 	}
 
-	number*= minus;
+	number *= minus;
 	return (number);
 }
