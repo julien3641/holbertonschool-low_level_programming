@@ -5,6 +5,7 @@
  * @h: pointer to the first node
  * @idx: index to add the new node
  * @n: data of the new node
+ * Return: return the address of the new node of NULL if it failed
  */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
@@ -20,7 +21,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	}
 	if (h == NULL && idx == 0)
 		return (0);
-	while (i < idx-1 && tmp != NULL)
+	while (i < idx - 1 && tmp != NULL)
 	{
 		tmp = tmp->next;
 		i++;
