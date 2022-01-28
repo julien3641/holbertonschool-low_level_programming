@@ -10,12 +10,19 @@
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	unsigned int idx;
+	hash_table_t *tmp;
 
 	if (ht == NULL || key == NULL)
 		return (NULL);
 	idx = key_index((unsigned char *)key, ht->size);
 	if (ht->array[idx] == NULL)
 		return (NULL);
-	else
-		return (ht->array[idx]->value);
+	tmp = ht->array[idx];
+	while (tmp)
+	{
+		if (strcmp(tmp->key, key) == 0)
+			return (tmp->value);
+		tmp = tmp->next;
+	}
+	return (NULL);
 }
