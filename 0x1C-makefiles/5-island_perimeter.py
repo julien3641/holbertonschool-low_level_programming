@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ write a function that compute the perimeter in the lac"""
+
+
 def island_perimeter(grid):
     """
     return the perimeter of the island described in grid
